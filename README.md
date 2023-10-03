@@ -1,6 +1,7 @@
 # FAVOR
 Fine-grained Audio-Visual Joint Representations for Multimodal Large Language Models
 
+<a href='https://e22e0d4d14095b1e23.gradio.live'><img src='https://img.shields.io/badge/gradio-demo-blue'></a>
 
 Button Specifications:
 
@@ -15,4 +16,4 @@ Button Specifications:
 `maximum length`, `top p` and `temperature` have their own individual meanings
 
 Examples mentioned in the paper are provided. Please feel free to start with those.
-<a href='https://61433fecda89efb2a8.gradio.live'><img src='https://img.shields.io/badge/gradio-demo-blue'></a>
+
