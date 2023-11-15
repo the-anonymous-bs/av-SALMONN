@@ -1,7 +1,7 @@
 # FAVOR
 Fine-grained Audio-Visual Joint Representations for Multimodal Large Language Models
 
-<a href='https://f81f95829d244a5910.gradio.live'><img src='https://img.shields.io/badge/gradio-demo-blue'></a>
+<a href='https://0cf31acd807ab9015d.gradio.live'><img src='https://img.shields.io/badge/gradio-demo-blue'></a>
 
 Button Specifications:
 
