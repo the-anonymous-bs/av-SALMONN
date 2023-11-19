@@ -18,5 +18,6 @@ Button Specifications:
 Examples mentioned in the paper are provided. Please feel free to start with those.
 
 
-We also provide the script for evaluating speech (LibriSpeech) and audio (AudioCaps) as single-modal tasks using Video-LLaMA. Please find codes in `infer_batch.sh` and `video_llama/`
-We provide the generated results for LibriSpeech () and AudioCaps (audiocaps.json)
+We provide the script for evaluating speech (LibriSpeech) and audio (AudioCaps) as single-modal tasks using Video-LLaMA. Please find codes in `infer_batch.sh` and `video_llama/`
+We provide the generated results for LibriSpeech (`librispeech.json` and `librispeech_finetuned.json` for finetuning 50k steps on LibriSpeech) and AudioCaps (`audiocaps.json`)
+We provide the checkpioint of Video-LLaMA finetuned on speech input: `videollama_librispeech_ckpt.pth` at https://huggingface.co/AnonymousBS/Video-LLaMA_LibriSpeech_ckpt
