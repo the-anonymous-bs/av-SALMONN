@@ -1,7 +1,7 @@
 # av-SALMONN
 av-SALMONN: Speech-Enhanced Audio-Visual Large Language Models
 
-<a href='https://e25a5ef8d6bdb8669c.gradio.live'><img src='https://img.shields.io/badge/gradio-demo-blue'></a>
+<a href='https://333a7cd8bd7f55611b.gradio.live'><img src='https://img.shields.io/badge/gradio-demo-blue'></a>
 
 Button Specifications:
 
@@ -20,4 +20,4 @@ Examples mentioned in the paper are provided. Please feel free to start with tho
 
 We provide the script for evaluating speech (LibriSpeech) and audio (AudioCaps) as single-modal tasks using Video-LLaMA. Please find codes in `infer_batch.sh` and `video_llama/`
 We provide the generated results for LibriSpeech (`librispeech.json` and `librispeech_finetuned.json` for finetuning 50k steps on LibriSpeech) and AudioCaps (`audiocaps.json`)
-<a href='https://e25a5ef8d6bdb8669c.gradio.live'><img src='https://img.shields.io/badge/gradio-demo-blue'></a>
+<a href='https://333a7cd8bd7f55611b.gradio.live'><img src='https://img.shields.io/badge/gradio-demo-blue'></a>
