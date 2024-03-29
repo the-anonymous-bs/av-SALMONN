@@ -25,10 +25,10 @@ We provide the generated results for LibriSpeech (`librispeech.json` and `libris
 ## Demo comparison between av-SALMONN and 2-stage systems
 In the following three examples, the question required the model to associate the speech with the correct speaker in order to answer it. As a result, only av-SALMONN can answer it correctly, whereas the other two 2-stage systems (av-SALMONN without audio input but add ASR transcription, and Video-Llama with ASR transcription) can not answer it.
 - av-SALMONN
-![avsalmonn](2stage1.jpeg)
+![avsalmonn](2stage1.png)
 
 - 2-stage av-SALMONN without audio input + ASR transcription
-![avsalmonn](2stage2.jpeg)
+![avsalmonn](2stage2.png)
 
 - 2-stage Video-Llama + ASR transcription
 ![avsalmonn](2stage_videollama.jpeg)
