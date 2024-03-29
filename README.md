@@ -21,3 +21,14 @@ Examples mentioned in the paper are provided. Please feel free to start with tho
 We provide the script for evaluating speech (LibriSpeech) and audio (AudioCaps) as single-modal tasks using Video-LLaMA. Please find codes in `infer_batch.sh` and `video_llama/`
 We provide the generated results for LibriSpeech (`librispeech.json` and `librispeech_finetuned.json` for finetuning 50k steps on LibriSpeech) and AudioCaps (`audiocaps.json`)
 <a href='https://0d3fa265264c84ccdf.gradio.live'><img src='https://img.shields.io/badge/gradio-demo-blue'></a>
+
+## Demo comparison between av-SALMONN and 2-stage systems
+In the following three examples, the question required the model to associate the speech with the correct speaker in order to answer it. As a result, only av-SALMONN can answer it correctly, whereas the other two 2-stage systems (av-SALMONN without audio input but add ASR transcription, and Video-Llama with ASR transcription) can not answer it.
+- av-SALMONN
+![avsalmonn](2stage1.jpeg)
+
+- 2-stage av-SALMONN without audio input + ASR transcription
+![avsalmonn](2stage2.jpeg)
+
+- 2-stage Video-Llama + ASR transcription
+![avsalmonn](2stage_videollama.jpeg)
